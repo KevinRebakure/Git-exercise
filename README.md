@@ -94,16 +94,25 @@ Before starting this exercise, Go through **Branching Model** and **Contribution
    - Imagine working on a new feature named `ft/new-feature`. Let's establish a dedicated branch for it.
 
    **Challenge:** Create a new branch named `ft/new-feature` and switch to that branch.
-   ```
- git branch
+   
+ ```git branch
+
 * main
+
   pt/branch
+
 PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch ft/new-feature
+
 PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch
+
   ft/new-feature
+
 * main
+
   pt/branch
+
 PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git switch ft/new-feature
+
 Switched to branch 'ft/new-feature'```
 
 3. **Working on the Feature Branch:**
