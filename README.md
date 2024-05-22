@@ -95,7 +95,8 @@ Before starting this exercise, Go through **Branching Model** and **Contribution
 
    **Challenge:** Create a new branch named `ft/new-feature` and switch to that branch.
    
- ```git branch
+ ```
+git branch
 
 * main
 
@@ -113,7 +114,8 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch
 
 PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git switch ft/new-feature
 
-Switched to branch 'ft/new-feature'```
+Switched to branch 'ft/new-feature'
+```
 
 3. **Working on the Feature Branch:**
 
