@@ -1,0 +1,29 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git checkout -b ft/new-branch-from-commit a3cf634    
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git log
+commit a3cf634f45f612fc057de47d165e33870b66cf19 (HEAD -> ft/new-branch-from-commit)
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Wed May 22 06:27:54 2024 +0200
+
+    squashed create 3rd and create 4th commits   
+
+commit 9b2d797f68e17a0d6858eca42deb21d827664759  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:08:29 2024 +0200
+
+    chore: create initial file
+
+commit d2b453e2286c11d137ed19749140e95506a28941  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:04:37 2024 +0200
+
+    created the first files
+
+commit 4266affcd5edce6740cd902ed320d4a31229cab9  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:02:49 2024 +0200
+
+    created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
