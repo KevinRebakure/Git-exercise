@@ -154,6 +154,21 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
 
    **Challenge:** Switch back to the `main` branch (previously master) and create a new file named `readme.txt` with some introductory content. Commit these changes with a message like "Updated project readme".
 
+```
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git add .
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git commit -m "Updated project readme"
+[main 76626ad] Updated project readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+
+```
 
 4. **Local vs. Remote Branches:**
 
