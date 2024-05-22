@@ -180,31 +180,46 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
 
    **Challenge:** Delete the `ft/new-feature` branch once you're confident the changes are integrated into `main`.
 
-6. **Creating a Branch from a Commit:**
+   ```
+
+   PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git merge ft/new-feature
+hint: Waiting for your editor to close the file..Merge made by the 'ort' strategy.
+ feature.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git branch -d ft/new-feature  
+Deleted branch ft/new-feature (was 507932f).
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+
+   ```
+
+7. **Creating a Branch from a Commit:**
 
    - You can also create a branch from a specific commit in your history.
 
    **Challenge:** Use `git checkout -b ft/new-branch-from-commit commit-hash` (adjust the commit hash as needed) to create a new branch named `ft/new-branch-from-commit` starting from the commit two positions back in your history. learn more [here](https://www.novicedev.com/blog/create-git-branch-commit)
 
-7. **Branch Merging:**
+8. **Branch Merging:**
 
    - Now that you've completed work on your feature branch, it's time to integrate it into `main`.
 
    **Challenge:** Merge the `ft/new-branch-from-commit` branch into the `main` branch. Address any merge conflicts that might arise.
 
-8. **Branch Rebasing:**
+9. **Branch Rebasing:**
 
    - Rebasing is another method to integrate changes from a feature branch. It rewrites your branch history by incorporating its commits on top of the latest commit in the target branch (`main` in our case).
 
    **Challenge:** Try rebasing the `ft/new-branch-from-commit` branch onto the `main` branch. Remember, rebasing rewrites history, so use it with caution, especially in shared repositories. learn more about rebasing [here](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase#:~:text=From%20a%20content%20perspective%2C%20rebasing,them%20to%20the%20specified%20base.)
 
-9. **Renaming Branches:**
+10. **Renaming Branches:**
 
    - Branch names can sometimes evolve. Let's rename `ft/new-branch-from-commit` to a more descriptive name.
 
    **Challenge:** Use `git branch -m ft/new-branch-from-commit ft/improved-branch-name` to rename your branch.
 
-10. **Checking Out Detached HEAD:**
+11. **Checking Out Detached HEAD:**
 
    - In specific situations, you might need to detach HEAD from your current branch. Research `git checkout <commit-hash>` (replace with the desired commit hash) to understand this concept.
 
