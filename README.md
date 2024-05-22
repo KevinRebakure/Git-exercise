@@ -197,12 +197,66 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
 ```
 
 
-7. **Creating a Branch from a Commit:**
+6. **Creating a Branch from a Commit:**
 
    - You can also create a branch from a specific commit in your history.
 
    **Challenge:** Use `git checkout -b ft/new-branch-from-commit commit-hash` (adjust the commit hash as needed) to create a new branch named `ft/new-branch-from-commit` starting from the commit two positions back in your history. learn more [here](https://www.novicedev.com/blog/create-git-branch-commit)
 
+```
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git log --oneline
+2806367 (HEAD -> main) Merge branch 'ft/new-feature'
+76626ad (origin/main) Updated project readme
+507932f Implemented core functionality for new feature
+bfeaefc Merge branch 'main' of https://github.com/KevinRebakure/The-Gym-Git-2-Exercise
+9ff3dcf cherry picked a commit with hash 2424480 where test5.md was created
+a3cf634 squashed create 3rd and create 4th commits
+9b2d797 chore: create initial file
+fc55004 Merge branch 'main' of https://github.com/KevinRebakure/The-Gym-Git-2-Exercise
+2dd7aee something
+bbfcc8d chore: created the forth file and the third file
+d2b453e created the first files
+5507024 chore: create third and forth file       
+ffc0049 chore: create another file
+4773d90 chore: create initial file
+6f88330 changed hello.txt
+4266aff created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git branch
+* main
+  pt/branch
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git checkout -b ft/new-branch-from-commit a3cf634    
+Switched to a new branch 'ft/new-branch-from-commit'
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+ git log
+commit a3cf634f45f612fc057de47d165e33870b66cf19 (HEAD -> ft/new-branch-from-commit)
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Wed May 22 06:27:54 2024 +0200
+
+    squashed create 3rd and create 4th commits   
+
+commit 9b2d797f68e17a0d6858eca42deb21d827664759  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:08:29 2024 +0200
+
+    chore: create initial file
+
+commit d2b453e2286c11d137ed19749140e95506a28941  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:04:37 2024 +0200
+
+    created the first files
+
+commit 4266affcd5edce6740cd902ed320d4a31229cab9  
+Author: KevinRebakure <kevinrebakure@gmail.com>  
+Date:   Tue May 21 13:02:49 2024 +0200
+
+    created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+
+```
 8. **Branch Merging:**
 
    - Now that you've completed work on your feature branch, it's time to integrate it into `main`.
