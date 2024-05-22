@@ -181,6 +181,7 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
    **Challenge:** Delete the `ft/new-feature` branch once you're confident the changes are integrated into `main`.
 
    ```
+   
    PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
  git merge ft/new-feature
 hint: Waiting for your editor to close the file..Merge made by the 'ort' strategy.
@@ -191,6 +192,7 @@ PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
  git branch -d ft/new-feature  
 Deleted branch ft/new-feature (was 507932f).
 PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+
 ```
 
 7. **Creating a Branch from a Commit:**
