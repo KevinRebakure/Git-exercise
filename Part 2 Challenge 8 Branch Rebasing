@@ -1,0 +1,20 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch
+* ft/new-branch-from-commit
+  main
+  pt/branch
+nd the third file -- patch contents already upstream
+CONFLICT (modify/delete): hello.txt deleted in HEAD and modified in 6f88330 (changed hello.txt).  Version 6f88330 (changed hello.txt) of hello.txt left in tree.  
+error: could not apply 6f88330... changed hello.txt
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 6f88330... changed hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise>
+                                                  git rm hello.txt
+rm 'hello.txt'
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git rebase --continue
+dropping 4773d90e1f06f88e6dff9d085f7dae9ecb667548 chore: create initial file -- patch contents already upstream
+dropping ffc00493398d899e5eff87ae75339ec393e2af1f chore: create another file -- patch contents already upstream
+dropping 55070241beee44f741c988ab9457e84523710908 chore: create third and forth file -- patch contents already upstream
+Successfully rebased and updated refs/heads/main.
