@@ -1,0 +1,22 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git tag v1.0
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git log --oneline
+6481ad0 (HEAD -> main, tag: v1.0) created a gitignore file
+e10ade8 fixed somethings
+9fa975f done
+6aa16a5 fixed conflicts
+3454007 qMerge branch 'pt/branch'
+b34cbca updated test1 here too
+745a963 (pt/branch) updated test1
+51a797f fixed merge conflicts
+1faa4d0 changed test1 too
+03cbbf1 updated test1
+12049df Implemented core functionality for new feature
+0a73f3d Updated project readme
+58eedc0 something
+9ff3dcf cherry picked a commit with hash 2424480 where test5.md was created      
+2424480 Implemented test 5
+a3cf634 squashed create 3rd and create 4th commits
+9b2d797 chore: create initial file
+d2b453e created the first files
+4266aff created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
