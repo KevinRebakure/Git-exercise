@@ -1,0 +1,36 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git log --oneline
+12049df (HEAD -> main) Implemented core functionality for new feature
+0a73f3d Updated project readme
+58eedc0 something
+9ff3dcf cherry picked a commit with hash 2424480 where test5.md was created      
+a3cf634 (ft/improved-branch-name) squashed create 3rd and create 4th commits
+9b2d797 chore: create initial file
+d2b453e created the first files
+4266aff created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git checkout 58eedc0 
+Note: switching to '58eedc0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this        
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false     
+
+HEAD is now at 58eedc0 something
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git log --oneline
+58eedc0 (HEAD) something
+9ff3dcf cherry picked a commit with hash 2424480 where test5.md was created      
+a3cf634 (ft/improved-branch-name) squashed create 3rd and create 4th commits     
+9b2d797 chore: create initial file
+d2b453e created the first files
+4266aff created hello.txt
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
