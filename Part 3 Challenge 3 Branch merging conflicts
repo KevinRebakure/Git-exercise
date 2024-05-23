@@ -1,0 +1,29 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git commit -m 'updated test1'
+[main 03cbbf1] updated test1
+ 1 file changed, 1 insertion(+)
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git switch ft/improved-branch-name
+Switched to branch 'ft/improved-branch-name'
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git add .
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git commit -m 'changed test1 too'
+[ft/improved-branch-name 1faa4d0] changed test1 too
+ 1 file changed, 1 insertion(+)
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git switch main
+Switched to branch 'main'
+Your branch and 'origin/main' have diverged,
+and have 4 and 9 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git merge ft/improved-branch-name
+Auto-merging test1.md
+CONFLICT (content): Merge conflict in test1.md
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git add .
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git commit -m "fixed merge conflicts"
+[main 51a797f] fixed merge conflicts
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 6 and 9 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
