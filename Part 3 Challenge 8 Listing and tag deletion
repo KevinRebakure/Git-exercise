@@ -1,0 +1,6 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git tag
+v1.0
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git tag -d v1.0
+Deleted tag 'v1.0' (was 6481ad0)
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git tag
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
