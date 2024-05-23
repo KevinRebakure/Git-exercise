@@ -1,0 +1,12 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch
+* ft/new-branch-from-commit
+  main
+  pt/branch
+PS C:   ers\elvis\Desktop\The-Gym-Git-2-Exercise>
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch     
+  ft/new-branch-from-commit
+* main
+  pt/branch
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git merge ft/new-branch-from-commit
+Already up to date.
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
