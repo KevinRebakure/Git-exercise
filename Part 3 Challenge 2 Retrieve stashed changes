@@ -1,0 +1,10 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git stash pop 
+HEAD detached at 58eedc0
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   test1.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (2b1b4874c4ccfc7a3807e51911e9186d6e543e0b)
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
