@@ -1,0 +1,5 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch -m ft/new-branch-from-commit ft/improved-branch-name    
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git branch
+  ft/improved-branch-name
+* main
+  pt/branch
