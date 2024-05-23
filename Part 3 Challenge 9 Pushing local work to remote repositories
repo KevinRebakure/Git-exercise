@@ -1,0 +1,19 @@
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git pull
+CONFLICT (modify/delete): hello.txt deleted in HEAD and modified in 76626ad412462c0cf7a99c7b7e7361bb71d54606.  Version 76626ad412462c0cf7a99c7b7e7361bb71d54606 of hello.txt left in tree.
+Automatic merge failed; fix conflicts and then commit the result.
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git add .
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git commit -m 'hello text.md deleted'
+[main ef258f3] hello text.md deleted
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git pull
+Already up to date.
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> git push
+Enumerating objects: 52, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (46/46), 4.31 KiB | 110.00 KiB/s, done.
+Total 46 (delta 21), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (21/21), completed with 1 local object.
+To https://github.com/KevinRebakure/The-Gym-Git-2-Exercise.git
+   76626ad..ef258f3  main -> main
+PS C:\Users\elvis\Desktop\The-Gym-Git-2-Exercise> 
